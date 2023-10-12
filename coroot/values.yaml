@@ -1,0 +1,20 @@
+corootCE:
+  persistentVolume:
+    storageClassName: "fast.ru-7a"
+    size: 5Gi
+
+prometheus:
+  server:
+    persistentVolume:
+      storageClass: "fast.ru-7a"
+      size: 5Gi
+
+pyroscope:
+  persistence:
+    storageClassName: "fast.ru-7a"
+    size: 5Gi
+
+clickhouse:
+  persistence:
+    storageClass: "fast.ru-7a"
+    size: 5Gi

@@ -1,0 +1,13 @@
+---
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - ../pixie//k8s/cloud_deps/public
+patches:
+  - path: pvc_patch_postgres.yaml
+  - path: pvc_patch_nats.yaml
+  - path: pvc_patch_es.yaml
+    target:
+      kind: Elasticsearch
+      name: pl-elastic
+      namespace: plc

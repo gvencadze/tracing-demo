@@ -1,0 +1,3 @@
+[submodule "pixie/pixie"]
+	path = pixie/pixie
+	url = https://github.com/pixie-io/pixie.git
