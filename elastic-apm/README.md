@@ -1,12 +1,12 @@
 # Elastic APM
 
-### Contents:
-1. CRDs (v2.5.0)
-2. Operator (v2.5.0)
-3. Components (Fleet APM integration + NS)
-   1. Kibana (v8.4.2)
-   2. Elasticsearch (v8.4.2)
-   3. Elastic-agent (v8.4.2)
+> Instrument your code and collect performance data and errors at runtime by installing APM agents like Java, Go, .NET, and many more.
+
+<img src="_img/architecture.png" alt="architecture"/>
+
+### Contents
+1. [Installation](#installation)
+2. [Screenshots](#screenshots)
 
 ### Note:
 If your cluster isn't located in ru-7,
@@ -18,5 +18,7 @@ in kustomize patch located at [components/pvc_patch.yaml](./components/pvc_patch
 kubectl apply -k elastic
 ```
 
-## Links:
-https://github.com/elastic/cloud-on-k8s/blob/2.5/config/crds/v1/all-crds.yaml
+### Screenshots
+
+<img src="_img/transaction.jpg" alt="transaction_w_spans" width="800"/>
+<img src="_img/service_map.png" alt="service_map" width="800"/>

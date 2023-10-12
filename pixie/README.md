@@ -1,6 +1,8 @@
 # [Pixie (v0.1.7)](https://px.dev)
 > Pixie is an open source observability tool for Kubernetes applications. Pixie uses eBPF to automatically capture telemetry data without the need for manual instrumentation.
 
+<img src="_img/architecture.svg" alt="architecture" width="800"/>
+
 ### FOR DEMO PURPOSES ONLY
 
 #### Note:
@@ -10,6 +12,7 @@
 ### Contents
 1. [Cluster prepare steps](#cluster-prepare)
 2. [Pixie installation](#pixie-install)
+3. [Screenshots](#screenshots)
 
 ### Preparation steps
 1. Fetch submodule
@@ -84,3 +87,9 @@ https://work.dev.withpixie.dev/live
 ### Links:
    1. https://docs.px.dev/installing-pixie/install-guides/self-hosted-pixie/
    2. https://docs.px.dev/tutorials/pixie-101/request-tracing/
+
+### Screenshots
+There are some screenshots from running Pixie instance (its small part of its features)
+
+<img src="_img/spans.png" alt="spans" width="1000"/>
+<img src="_img/overview.png" alt="overview" width="1000"/>
